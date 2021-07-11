@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from email.message import EmailMessage
 import smtplib
 from datetime import datetime
@@ -28,7 +30,7 @@ date = str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 body = "XCH Price as of " + date + " is: " + str(xchPrice) + " USD"
 print(body)
 
-f = open("EmailList.lst","r")
+f = open("EmailList.lst", "r")
 emails = f.readlines()
 f.close()
 for email in emails:
