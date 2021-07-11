@@ -136,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625985537953</updated>
-      <workItem from="1625985539068" duration="11128000" />
+      <workItem from="1625985539068" duration="11397000" />
     </task>
     <servers />
   </component>
@@ -163,22 +163,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="416" key="#com.intellij.ide.util.MemberChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991533881" />
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1626001314725">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1626001778635">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001314725" />
-    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1626001314725">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001778635" />
+    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1626001778635">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001314725" />
-    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1626001314725">
+    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001778635" />
+    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1626001778634">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001314725" />
-    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1626001314725">
+    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001778634" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1626001778635">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001314725" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1626001778635" />
     <state x="1451" y="345" key="SettingsEditor" timestamp="1626001461324">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -186,7 +186,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/InfoScreen$XCHtoUSD.coverage" NAME="XCHtoUSD Coverage Results" MODIFIED="1625995459334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/InfoScreen$SendEmail.coverage" NAME="SendEmail Coverage Results" MODIFIED="1625996372712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InfoScreen$SendEmail.coverage" NAME="SendEmail Coverage Results" MODIFIED="1626001778629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InfoScreen$getUSDtoRUB.coverage" NAME="getUSDtoRUB Coverage Results" MODIFIED="1625991371139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

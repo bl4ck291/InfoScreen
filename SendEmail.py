@@ -3,6 +3,7 @@ import smtplib
 from datetime import datetime
 from XCHtoUSD import XCHtoUSD
 import schedule
+import time
 
 f = open("Gmail.apikey", "r")
 lines = f.readlines()
@@ -38,4 +39,8 @@ def run():
         print("Sent Email to: " + email)
 
 
-schedule.every().day.at("14:10").do(run)
+schedule.every().day.at("14:15").do(run)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
