@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafc08c6-384f-4974-bb11-23cca2107258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/XCHtoUSD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmailList.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SendEmail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USDtoRUB.py" beforeDir="false" afterPath="$PROJECT_DIR$/USDtoRUB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Python.XCHtoUSD">
+  <component name="RunManager" selected="Python.SendEmail">
+    <configuration name="SendEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InfoScreen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SendEmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="USDtoRUB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InfoScreen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SendEmail" />
         <item itemvalue="Python.XCHtoUSD" />
         <item itemvalue="Python.getUSDtoRUB" />
       </list>
@@ -113,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625985537953</updated>
-      <workItem from="1625985539068" duration="6750000" />
+      <workItem from="1625985539068" duration="8703000" />
     </task>
     <servers />
   </component>
@@ -132,33 +155,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1588" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625992371459">
+    <state x="1588" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625996323043">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1588" y="502" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625992371459" />
+    <state x="1588" y="502" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625996323043" />
     <state x="1725" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1625991533881">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="416" key="#com.intellij.ide.util.MemberChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991533881" />
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1625992630623">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1625996009054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625992630623" />
-    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1625992630622">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625996009054" />
+    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1625996009054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625992630622" />
-    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1625992630622">
+    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625996009054" />
+    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1625996009054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625992630622" />
-    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1625992630623">
+    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625996009054" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1625996009054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625992630623" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625996009054" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InfoScreen$XCHtoUSD.coverage" NAME="XCHtoUSD Coverage Results" MODIFIED="1625992630619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InfoScreen$XCHtoUSD.coverage" NAME="XCHtoUSD Coverage Results" MODIFIED="1625995459334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InfoScreen$SendEmail.coverage" NAME="SendEmail Coverage Results" MODIFIED="1625996372712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/InfoScreen$getUSDtoRUB.coverage" NAME="getUSDtoRUB Coverage Results" MODIFIED="1625991371139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
