@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafc08c6-384f-4974-bb11-23cca2107258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/getUSDtoRUB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/USDtoRUB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getUSDtoRUB.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration name="getUSDtoRUB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="USDtoRUB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InfoScreen" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +65,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getUSDtoRUB.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BL4CK\Desktop\RPI\InfoScreen\USDtoRUB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625985537953</updated>
-      <workItem from="1625985539068" duration="5227000" />
+      <workItem from="1625985539068" duration="5499000" />
     </task>
     <servers />
   </component>
@@ -108,24 +109,24 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1625991115087">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom" timestamp="1625991371142">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991115087" />
-    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1625991115087">
+    <state width="1236" height="390" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991371142" />
+    <state width="1236" height="390" key="GridCell.Tab.0.center" timestamp="1625991371142">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991115087" />
-    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1625991115087">
+    <state width="1236" height="390" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991371142" />
+    <state width="1236" height="390" key="GridCell.Tab.0.left" timestamp="1625991371142">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991115087" />
-    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1625991115087">
+    <state width="1236" height="390" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991371142" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right" timestamp="1625991371142">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991115087" />
+    <state width="1236" height="390" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1625991371142" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InfoScreen$getUSDtoRUB.coverage" NAME="getUSDtoRUB Coverage Results" MODIFIED="1625991115082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InfoScreen$getUSDtoRUB.coverage" NAME="getUSDtoRUB Coverage Results" MODIFIED="1625991371139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
