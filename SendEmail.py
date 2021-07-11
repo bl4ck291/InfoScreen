@@ -40,7 +40,7 @@ def run():
 
 
 schedule.every().day.at("09:00").do(run)
-
+print("Script Started...")
 while True:
     schedule.run_pending()
     time.sleep(1)
