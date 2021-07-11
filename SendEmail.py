@@ -1,9 +1,8 @@
-#!/usr/bin/python3
-
 from email.message import EmailMessage
 import smtplib
 from datetime import datetime
 from XCHtoUSD import XCHtoUSD
+import schedule
 
 f = open("Gmail.apikey", "r")
 lines = f.readlines()
@@ -24,17 +23,19 @@ def send_email(recipient, subject, body):
     server.quit()
 
 
-converter = XCHtoUSD()
-xchPrice = converter.getUSDtoRUB()
-date = str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
-body = "XCH Price as of " + date + " is: " + str(xchPrice) + " USD"
-print(body)
+def run():
+    converter = XCHtoUSD()
+    xchPrice = converter.getUSDtoRUB()
+    date = str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+    body = "XCH Price as of " + date + " is: " + str(xchPrice) + " USD"
+    print(body)
+    f = open("EmailList.lst", "r")
+    emails = f.readlines()
+    f.close()
+    for email in emails:
+        email.strip()
+        send_email(email, subject="Today's XCH Price", body=body)
+        print("Sent Email to: " + email)
 
-f = open("EmailList.lst", "r")
-emails = f.readlines()
-f.close()
-for email in emails:
-    email.strip()
-    send_email(email, subject="Today's XCH Price", body=body)
-    print("Sent Email to: " + email)
 
+schedule.every().day.at("14:10").do(run)
